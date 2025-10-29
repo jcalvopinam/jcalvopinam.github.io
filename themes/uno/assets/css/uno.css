@@ -1098,9 +1098,9 @@ pre {
 
 .content-wrapper {
   z-index: 800;
-  width: 60%;
-  max-width: 800px;
-  margin-left: 40%; }
+  margin: 0 auto;
+  max-width: auto;
+  margin-left: none; }
 
 .content-wrapper__inner {
   margin: 0 10%;
@@ -1655,7 +1655,7 @@ input[type="tel"] {
         width: 25.8%; }
 
   .content-wrapper {
-    width: 80%;
+    width: 100%;
     max-width: none;
     margin: 0 auto; }
 
